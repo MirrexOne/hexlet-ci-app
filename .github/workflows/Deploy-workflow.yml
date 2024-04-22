@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: prepare environment
-        usesCloneRepository: actions/checkout@v4
-        usesInstallNodeJS: actions/setup-node@v4
+        uses CloneRepository: actions/checkout@v4
+        uses InstallNodeJS: actions/setup-node@v4
 
       - name: setup project
         run: make setup
