@@ -2,6 +2,9 @@
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
+# Deploy check
+![Workflow pass check](https://github.com/MirrexOne/hexlet-ci-app/actions/workflows/Deploy-workflow.yml/badge.svg)
+
 ## System requirements
 
 * NodeJS >= 18
