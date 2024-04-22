@@ -19,3 +19,9 @@ jobs:
 
       - name: run lint
         run: make lint
+
+      - uses: actions/checkout@master
+      - name: snyk node action
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ secret.SNYK_TOKEN}}
